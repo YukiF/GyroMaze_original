@@ -157,21 +157,20 @@ class ViewController: UIViewController {
                     return
                 }
             }
-            
             if (CGRectIntersectsRect(self.warpGoView.frame,self.playerView.frame)){
                 if self.isIntoWarpView == false {
                     self.warpCountNumber = 0.0
                     self.warpTimer = NSTimer.scheduledTimerWithTimeInterval(0.1, target: self, selector: "up", userInfo: nil, repeats: true)
                     self.warpTimer.fire()
+                    self.isIntoWarpView = true
                 }
-                self.isIntoWarpView = true
             }else{
                 self.isIntoWarpView = false
-                self.warpCountNumber = 0.0
                 if self.warpTimer != nil {
                     self.warpTimer.invalidate()
                 }
             }
+            
             
             if (CGRectIntersectsRect(self.goalView.frame,self.playerView.frame)){
                 self.gameCheck("Clear!",message: "クリアしました！")
@@ -184,17 +183,16 @@ class ViewController: UIViewController {
         
     }
     func up() {
-            warpCountNumber = warpCountNumber + 0.1
-            if warpCountNumber >= 3.0 {
-                self.warpMove()
-            }
+        warpCountNumber = warpCountNumber + 0.1
+        if warpCountNumber >= 3.0 {
+            self.warpMove()
+        }
     }
     
     func warpMove() {
         warpTimer.invalidate()
         playerView.center = warpComeView.center
     }
-    
     
     func gameCheck(result:String,message:String){
         
@@ -204,13 +202,11 @@ class ViewController: UIViewController {
         }
         
         let gameCheckAlert: UIAlertController = UIAlertController(title:result, message:message, preferredStyle: .Alert)
-        
         let retryAction = UIAlertAction(title: "もう一度", style: .Default) { action in
             self.retry()
         }
         
         gameCheckAlert.addAction(retryAction)
-        
         self.presentViewController(gameCheckAlert, animated: true, completion: nil)
     }
     
@@ -227,8 +223,6 @@ class ViewController: UIViewController {
         speedX = 0.0
         speedY = 0.0
     }
-    
-    
     
 }
 
