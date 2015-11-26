@@ -14,6 +14,7 @@
 		98C6194D1C06DFAA00E36A23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98C6194B1C06DFAA00E36A23 /* LaunchScreen.storyboard */; };
 		98C619581C06DFAA00E36A23 /* GyroMaze_gamiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C619571C06DFAA00E36A23 /* GyroMaze_gamiTests.swift */; };
 		98C619631C06DFAA00E36A23 /* GyroMaze_gamiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C619621C06DFAA00E36A23 /* GyroMaze_gamiUITests.swift */; };
+		98C619711C06EEFA00E36A23 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C619701C06EEFA00E36A23 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		98C6195E1C06DFAA00E36A23 /* GyroMaze_gamiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GyroMaze_gamiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98C619621C06DFAA00E36A23 /* GyroMaze_gamiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroMaze_gamiUITests.swift; sourceTree = "<group>"; };
 		98C619641C06DFAA00E36A23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98C619701C06EEFA00E36A23 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98C619711C06EEFA00E36A23 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +80,7 @@
 		98C619361C06DFA900E36A23 = {
 			isa = PBXGroup;
 			children = (
+				98C619701C06EEFA00E36A23 /* AudioToolbox.framework */,
 				98C619411C06DFA900E36A23 /* GyroMaze_gami */,
 				98C619561C06DFAA00E36A23 /* GyroMaze_gamiTests */,
 				98C619611C06DFAA00E36A23 /* GyroMaze_gamiUITests */,
