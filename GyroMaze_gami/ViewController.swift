@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreMotion
+import AudioToolbox
 
 
 class ViewController: UIViewController {
@@ -151,6 +152,7 @@ class ViewController: UIViewController {
             
             for wallRect in self.wallRectArray {
                 if (CGRectIntersectsRect(wallRect,self.playerView.frame)){
+                    AudioServicesPlaySystemSound(SystemSoundID(kSystemSoundID_Vibrate))
                     self.gameCheck("GameOver", message: "壁に当たりました。")
                     return
                 }
