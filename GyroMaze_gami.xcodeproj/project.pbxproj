@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98C619431C06DFA900E36A23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C619421C06DFA900E36A23 /* AppDelegate.swift */; };
+		98C619451C06DFA900E36A23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C619441C06DFA900E36A23 /* ViewController.swift */; };
+		98C619481C06DFAA00E36A23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98C619461C06DFAA00E36A23 /* Main.storyboard */; };
+		98C6194A1C06DFAA00E36A23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98C619491C06DFAA00E36A23 /* Assets.xcassets */; };
+		98C6194D1C06DFAA00E36A23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98C6194B1C06DFAA00E36A23 /* LaunchScreen.storyboard */; };
+		98C619581C06DFAA00E36A23 /* GyroMaze_gamiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C619571C06DFAA00E36A23 /* GyroMaze_gamiTests.swift */; };
+		98C619631C06DFAA00E36A23 /* GyroMaze_gamiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C619621C06DFAA00E36A23 /* GyroMaze_gamiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98C619541C06DFAA00E36A23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98C619371C06DFA900E36A23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98C6193E1C06DFA900E36A23;
+			remoteInfo = GyroMaze_gami;
+		};
+		98C6195F1C06DFAA00E36A23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98C619371C06DFA900E36A23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98C6193E1C06DFA900E36A23;
+			remoteInfo = GyroMaze_gami;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98C6193F1C06DFA900E36A23 /* GyroMaze_gami.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GyroMaze_gami.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98C619421C06DFA900E36A23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		98C619441C06DFA900E36A23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		98C619471C06DFAA00E36A23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98C619491C06DFAA00E36A23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98C6194C1C06DFAA00E36A23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98C6194E1C06DFAA00E36A23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98C619531C06DFAA00E36A23 /* GyroMaze_gamiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GyroMaze_gamiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98C619571C06DFAA00E36A23 /* GyroMaze_gamiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroMaze_gamiTests.swift; sourceTree = "<group>"; };
+		98C619591C06DFAA00E36A23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98C6195E1C06DFAA00E36A23 /* GyroMaze_gamiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GyroMaze_gamiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98C619621C06DFAA00E36A23 /* GyroMaze_gamiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroMaze_gamiUITests.swift; sourceTree = "<group>"; };
+		98C619641C06DFAA00E36A23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98C6193C1C06DFA900E36A23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98C619501C06DFAA00E36A23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98C6195B1C06DFAA00E36A23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98C619361C06DFA900E36A23 = {
+			isa = PBXGroup;
+			children = (
+				98C619411C06DFA900E36A23 /* GyroMaze_gami */,
+				98C619561C06DFAA00E36A23 /* GyroMaze_gamiTests */,
+				98C619611C06DFAA00E36A23 /* GyroMaze_gamiUITests */,
+				98C619401C06DFA900E36A23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98C619401C06DFA900E36A23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98C6193F1C06DFA900E36A23 /* GyroMaze_gami.app */,
+				98C619531C06DFAA00E36A23 /* GyroMaze_gamiTests.xctest */,
+				98C6195E1C06DFAA00E36A23 /* GyroMaze_gamiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98C619411C06DFA900E36A23 /* GyroMaze_gami */ = {
+			isa = PBXGroup;
+			children = (
+				98C619421C06DFA900E36A23 /* AppDelegate.swift */,
+				98C619441C06DFA900E36A23 /* ViewController.swift */,
+				98C619461C06DFAA00E36A23 /* Main.storyboard */,
+				98C619491C06DFAA00E36A23 /* Assets.xcassets */,
+				98C6194B1C06DFAA00E36A23 /* LaunchScreen.storyboard */,
+				98C6194E1C06DFAA00E36A23 /* Info.plist */,
+			);
+			path = GyroMaze_gami;
+			sourceTree = "<group>";
+		};
+		98C619561C06DFAA00E36A23 /* GyroMaze_gamiTests */ = {
+			isa = PBXGroup;
+			children = (
+				98C619571C06DFAA00E36A23 /* GyroMaze_gamiTests.swift */,
+				98C619591C06DFAA00E36A23 /* Info.plist */,
+			);
+			path = GyroMaze_gamiTests;
+			sourceTree = "<group>";
+		};
+		98C619611C06DFAA00E36A23 /* GyroMaze_gamiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98C619621C06DFAA00E36A23 /* GyroMaze_gamiUITests.swift */,
+				98C619641C06DFAA00E36A23 /* Info.plist */,
+			);
+			path = GyroMaze_gamiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98C6193E1C06DFA900E36A23 /* GyroMaze_gami */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98C619671C06DFAA00E36A23 /* Build configuration list for PBXNativeTarget "GyroMaze_gami" */;
+			buildPhases = (
+				98C6193B1C06DFA900E36A23 /* Sources */,
+				98C6193C1C06DFA900E36A23 /* Frameworks */,
+				98C6193D1C06DFA900E36A23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GyroMaze_gami;
+			productName = GyroMaze_gami;
+			productReference = 98C6193F1C06DFA900E36A23 /* GyroMaze_gami.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98C619521C06DFAA00E36A23 /* GyroMaze_gamiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98C6196A1C06DFAA00E36A23 /* Build configuration list for PBXNativeTarget "GyroMaze_gamiTests" */;
+			buildPhases = (
+				98C6194F1C06DFAA00E36A23 /* Sources */,
+				98C619501C06DFAA00E36A23 /* Frameworks */,
+				98C619511C06DFAA00E36A23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98C619551C06DFAA00E36A23 /* PBXTargetDependency */,
+			);
+			name = GyroMaze_gamiTests;
+			productName = GyroMaze_gamiTests;
+			productReference = 98C619531C06DFAA00E36A23 /* GyroMaze_gamiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98C6195D1C06DFAA00E36A23 /* GyroMaze_gamiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98C6196D1C06DFAA00E36A23 /* Build configuration list for PBXNativeTarget "GyroMaze_gamiUITests" */;
+			buildPhases = (
+				98C6195A1C06DFAA00E36A23 /* Sources */,
+				98C6195B1C06DFAA00E36A23 /* Frameworks */,
+				98C6195C1C06DFAA00E36A23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98C619601C06DFAA00E36A23 /* PBXTargetDependency */,
+			);
+			name = GyroMaze_gamiUITests;
+			productName = GyroMaze_gamiUITests;
+			productReference = 98C6195E1C06DFAA00E36A23 /* GyroMaze_gamiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98C619371C06DFA900E36A23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Yuki Futagami";
+				TargetAttributes = {
+					98C6193E1C06DFA900E36A23 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					98C619521C06DFAA00E36A23 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 98C6193E1C06DFA900E36A23;
+					};
+					98C6195D1C06DFAA00E36A23 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 98C6193E1C06DFA900E36A23;
+					};
+				};
+			};
+			buildConfigurationList = 98C6193A1C06DFA900E36A23 /* Build configuration list for PBXProject "GyroMaze_gami" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98C619361C06DFA900E36A23;
+			productRefGroup = 98C619401C06DFA900E36A23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98C6193E1C06DFA900E36A23 /* GyroMaze_gami */,
+				98C619521C06DFAA00E36A23 /* GyroMaze_gamiTests */,
+				98C6195D1C06DFAA00E36A23 /* GyroMaze_gamiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98C6193D1C06DFA900E36A23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C6194D1C06DFAA00E36A23 /* LaunchScreen.storyboard in Resources */,
+				98C6194A1C06DFAA00E36A23 /* Assets.xcassets in Resources */,
+				98C619481C06DFAA00E36A23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98C619511C06DFAA00E36A23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98C6195C1C06DFAA00E36A23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98C6193B1C06DFA900E36A23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C619451C06DFA900E36A23 /* ViewController.swift in Sources */,
+				98C619431C06DFA900E36A23 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98C6194F1C06DFAA00E36A23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C619581C06DFAA00E36A23 /* GyroMaze_gamiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98C6195A1C06DFAA00E36A23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C619631C06DFAA00E36A23 /* GyroMaze_gamiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98C619551C06DFAA00E36A23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98C6193E1C06DFA900E36A23 /* GyroMaze_gami */;
+			targetProxy = 98C619541C06DFAA00E36A23 /* PBXContainerItemProxy */;
+		};
+		98C619601C06DFAA00E36A23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98C6193E1C06DFA900E36A23 /* GyroMaze_gami */;
+			targetProxy = 98C6195F1C06DFAA00E36A23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98C619461C06DFAA00E36A23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98C619471C06DFAA00E36A23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98C6194B1C06DFAA00E36A23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98C6194C1C06DFAA00E36A23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98C619651C06DFAA00E36A23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98C619661C06DFAA00E36A23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98C619681C06DFAA00E36A23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GyroMaze_gami/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.futagami.GyroMaze-gami";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		98C619691C06DFAA00E36A23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GyroMaze_gami/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.futagami.GyroMaze-gami";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		98C6196B1C06DFAA00E36A23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GyroMaze_gamiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.futagami.GyroMaze-gamiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GyroMaze_gami.app/GyroMaze_gami";
+			};
+			name = Debug;
+		};
+		98C6196C1C06DFAA00E36A23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GyroMaze_gamiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.futagami.GyroMaze-gamiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GyroMaze_gami.app/GyroMaze_gami";
+			};
+			name = Release;
+		};
+		98C6196E1C06DFAA00E36A23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GyroMaze_gamiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.futagami.GyroMaze-gamiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GyroMaze_gami;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		98C6196F1C06DFAA00E36A23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GyroMaze_gamiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.futagami.GyroMaze-gamiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GyroMaze_gami;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98C6193A1C06DFA900E36A23 /* Build configuration list for PBXProject "GyroMaze_gami" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98C619651C06DFAA00E36A23 /* Debug */,
+				98C619661C06DFAA00E36A23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98C619671C06DFAA00E36A23 /* Build configuration list for PBXNativeTarget "GyroMaze_gami" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98C619681C06DFAA00E36A23 /* Debug */,
+				98C619691C06DFAA00E36A23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		98C6196A1C06DFAA00E36A23 /* Build configuration list for PBXNativeTarget "GyroMaze_gamiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98C6196B1C06DFAA00E36A23 /* Debug */,
+				98C6196C1C06DFAA00E36A23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		98C6196D1C06DFAA00E36A23 /* Build configuration list for PBXNativeTarget "GyroMaze_gamiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98C6196E1C06DFAA00E36A23 /* Debug */,
+				98C6196F1C06DFAA00E36A23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98C619371C06DFA900E36A23 /* Project object */;
+}
