@@ -47,7 +47,7 @@ class ViewController: UIViewController {
     var isIntoWarpView: Bool = false
     var warpTimer:NSTimer!
     var warpCountNumber: Double = 0.0
-
+    
     
     var wallRectArray = [CGRect]()
     
@@ -160,13 +160,17 @@ class ViewController: UIViewController {
             
             if (CGRectIntersectsRect(self.warpGoView.frame,self.playerView.frame)){
                 if self.isIntoWarpView == false {
-                    print("timer呼ばれた")
+                    self.warpCountNumber = 0.0
                     self.warpTimer = NSTimer.scheduledTimerWithTimeInterval(0.1, target: self, selector: "up", userInfo: nil, repeats: true)
                     self.warpTimer.fire()
                 }
                 self.isIntoWarpView = true
             }else{
                 self.isIntoWarpView = false
+                self.warpCountNumber = 0.0
+                if self.warpTimer != nil {
+                    self.warpTimer.invalidate()
+                }
             }
             
             if (CGRectIntersectsRect(self.goalView.frame,self.playerView.frame)){
@@ -180,15 +184,14 @@ class ViewController: UIViewController {
         
     }
     func up() {
-        warpCountNumber = warpCountNumber + 0.1
-        if warpCountNumber >= 2.0 {
+            warpCountNumber = warpCountNumber + 0.1
+            if warpCountNumber >= 3.0 {
                 self.warpMove()
-        }
+            }
     }
     
     func warpMove() {
         warpTimer.invalidate()
-        warpCountNumber = 0.0
         playerView.center = warpComeView.center
     }
     
